@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 
-const API_KEY = "AIzaSyDQy4uHWf9Ik6TMDmWDsixi1UZA680oklM";
+const API_KEY = "AIzaSyBLOPd668u0VOleB5v3BLtCanpmj8VMV3s";
 /* const query = "channels"; */
 /* const part = "brandingSettings, statistics,snippet"; */
 

@@ -64,7 +64,7 @@ function RecommendedVideos() {
     <div className="recommendedVideos">
       <h2>Recommended</h2>
       <div className="recommendedVideos__videos">
-       {/*  {data && data.items.map(insertVideoCard)} */}
+        {data && data.items.map(insertVideoCard)}
       </div>
     </div>
   );

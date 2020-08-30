@@ -25,12 +25,15 @@ function Header() {
     history.push("/search/:searchTerm");
   };
 
- /*  const handleKeyDown = (event) => {
+  const handleKeyDown = (event) => {
     if (event.key === "Enter") {
-      
-        
+      dispatch({
+        type: "SET_SEARCH_TERM",
+        term: input,
+      });
+      history.push("/search/:searchTerm");
     }
-  }; */
+  };
 
   return (
     <div className="header">
@@ -50,7 +53,7 @@ function Header() {
           value={input}
           placeholder="Search"
           type="text"
-          //onKeyDown={handleKeyDown}
+          onKeyDown={handleKeyDown}
         />
 
         <SearchIcon onClick={search} className="header__inputButton" />
