@@ -17,8 +17,7 @@ function SearchPage() {
   const parameter = "q";
 
   const { data } = useApi(term, query, part, type, parameter);
-console.log("dataSearch:", data,"termSearch:",term)
-
+  console.log("dataSearch:", data, "termSearch:", term);
 
   const insertVideoRow = (item) => {
     return (

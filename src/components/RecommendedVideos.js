@@ -53,7 +53,7 @@ function RecommendedVideos() {
         title={item.snippet.title}
         image={item.snippet.thumbnails.medium.url}
         channel={item.snippet.channelTitle}
-        //channelImage={channelImage}
+        channelImage={item.snippet.thumbnails.medium.url}
         timestamp
         views
       />
